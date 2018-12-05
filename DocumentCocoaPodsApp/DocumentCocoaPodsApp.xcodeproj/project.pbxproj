@@ -15,8 +15,8 @@
 		D8929BB421B80582007D5393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8929BB321B80582007D5393 /* main.m */; };
 		D8929BBE21B80583007D5393 /* DocumentCocoaPodsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8929BBD21B80583007D5393 /* DocumentCocoaPodsAppTests.m */; };
 		D8929BC921B80583007D5393 /* DocumentCocoaPodsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8929BC821B80583007D5393 /* DocumentCocoaPodsAppUITests.m */; };
-		D8929BD721B80EB1007D5393 /* DocumentCaptureCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8929BD621B80EB0007D5393 /* DocumentCaptureCocoaPods.framework */; };
-		D8929BD821B80EB1007D5393 /* DocumentCaptureCocoaPods.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8929BD621B80EB0007D5393 /* DocumentCaptureCocoaPods.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8929BDB21B811EF007D5393 /* DocumentCaptureCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8929BDA21B811EF007D5393 /* DocumentCaptureCocoaPods.framework */; };
+		D8929BDC21B811EF007D5393 /* DocumentCaptureCocoaPods.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8929BDA21B811EF007D5393 /* DocumentCaptureCocoaPods.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D8929BD821B80EB1007D5393 /* DocumentCaptureCocoaPods.framework in Embed Frameworks */,
+				D8929BDC21B811EF007D5393 /* DocumentCaptureCocoaPods.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,7 +67,7 @@
 		D8929BC421B80583007D5393 /* DocumentCocoaPodsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentCocoaPodsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8929BC821B80583007D5393 /* DocumentCocoaPodsAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentCocoaPodsAppUITests.m; sourceTree = "<group>"; };
 		D8929BCA21B80583007D5393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8929BD621B80EB0007D5393 /* DocumentCaptureCocoaPods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DocumentCaptureCocoaPods.framework; sourceTree = "<group>"; };
+		D8929BDA21B811EF007D5393 /* DocumentCaptureCocoaPods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentCaptureCocoaPods.framework; path = ../SDK/DocumentCaptureCocoaPods.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8929BD721B80EB1007D5393 /* DocumentCaptureCocoaPods.framework in Frameworks */,
+				D8929BDB21B811EF007D5393 /* DocumentCaptureCocoaPods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		D8929B9821B80582007D5393 = {
 			isa = PBXGroup;
 			children = (
-				D8929BD621B80EB0007D5393 /* DocumentCaptureCocoaPods.framework */,
+				D8929BDA21B811EF007D5393 /* DocumentCaptureCocoaPods.framework */,
 				D8929BA321B80582007D5393 /* DocumentCocoaPodsApp */,
 				D8929BBC21B80583007D5393 /* DocumentCocoaPodsAppTests */,
 				D8929BC721B80583007D5393 /* DocumentCocoaPodsAppUITests */,
