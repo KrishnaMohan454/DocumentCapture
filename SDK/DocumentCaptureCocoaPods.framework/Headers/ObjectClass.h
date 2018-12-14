@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <SelfieCocoaPodFramework/SelfieCocoaPodFramework.h>
 
 
 @interface ObjectClass : NSObject
