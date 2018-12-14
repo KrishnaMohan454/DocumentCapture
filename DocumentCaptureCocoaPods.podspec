@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/KrishnaMohan454/DocumentCapture.git", :tag => "1.0.0" }
 
   s.ios.deployment_target  = '10.0'
-  s.ios.vendored_framework = 'DocumentCaptureCocoaPods.framework'
+  s.ios.vendored_framework = 'SDK/DocumentCaptureCocoaPods.framework'
 
 
 end

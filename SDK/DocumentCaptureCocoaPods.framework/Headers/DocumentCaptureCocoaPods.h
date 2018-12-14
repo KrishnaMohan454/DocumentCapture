@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <DocumentCaptureCocoaPods/DataViewController.h>
+#import <DocumentCaptureCocoaPods/ObjectClass.h>
 //! Project version number for DocumentCaptureCocoaPods.
 FOUNDATION_EXPORT double DocumentCaptureCocoaPodsVersionNumber;
 
