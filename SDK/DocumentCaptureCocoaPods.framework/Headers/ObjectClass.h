@@ -7,12 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <SelfieCocoaPodFramework/SelfieCocoaPodFramework.h>
-
+#import <UIKit/UIKit.h>
 
 @interface ObjectClass : NSObject
 
 - (void)printData;
-
+- (void)imageRotation:(UIImage*)userImage;
 @end
 
